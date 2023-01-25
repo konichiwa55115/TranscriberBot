@@ -1,6 +1,6 @@
 {
   "version": "3.0.0",
-  "database": "data/database.db",
+  "database": "postgres://postgres:Ibntaymya1.@db.ocsrfwsqoiuztsqyjbip.supabase.co:6543/postgres",
   "media_path": "media",
   "languages" : {
     "arabic": "ar-EG",
