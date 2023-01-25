@@ -8,6 +8,8 @@ RUN export LC_NUMERIC=C
 
 # Install system dependencies
 RUN apt-get update
+RUN python3 -m pip install --upgrade pip
+RUN pip3 install virtualenv setuptools
 RUN apt-get install --no-install-recommends -y \
                     build-essential \
                     ffmpeg \
